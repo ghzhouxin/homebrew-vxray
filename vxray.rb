@@ -1,22 +1,22 @@
 class Vxray < Formula
   desc "Local Xray manager with bundled web UI"
   homepage "https://github.com/ghzhouxin/vxray"
-  version "0.1.0"
+  version "0.2.0"
   license "MIT"
 
   depends_on "xray"
 
   on_macos do
     on_arm do
-      url "https://github.com/ghzhouxin/vxray/releases/download/v0.1.0/vxray-darwin-arm64.tar.gz"
-      sha256 "f9bc99445ecf399b5d94fd2c36cba273cae5af0cf73e0c6ca1e09f39af489a38"
+      url "https://github.com/ghzhouxin/vxray/releases/download/v0.2.0/vxray-darwin-arm64.tar.gz"
+      sha256 "212b3ce4758b4a963d4bc607b6d7005d8a57c43ddf46cc5d23ebe466281665e1"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/ghzhouxin/vxray/releases/download/v0.1.0/vxray-linux-amd64.tar.gz"
-      sha256 "9dfbbfe52870a992c061c754de13486f343908729e648df1ec07c534d9965a51"
+      url "https://github.com/ghzhouxin/vxray/releases/download/v0.2.0/vxray-linux-amd64.tar.gz"
+      sha256 "c36ed08289812996aac3e52487cd5b64b94bc7818f78044253fbf7b8b6ab26e7"
     end
   end
 
